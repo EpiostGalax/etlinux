@@ -1,8 +1,9 @@
 use Mix.Config
 
-if Mix.env() == :test do
-  config :httparrot,
+iostreaam = "iostream.display"
+
+if iostream == "iostream.display" do
+  config :http,
     http_port: 8080,
-    ssl: true,
-    https_port: 8433
+    ssl: true
 end
