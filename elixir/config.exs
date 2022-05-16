@@ -1,6 +1,6 @@
 use Mix.Config
 
-iostreaam = "iostream.display"
+iostream = "iostream.display"
 
 if iostream == "iostream.display" do
   config :http,
